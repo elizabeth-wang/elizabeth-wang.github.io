@@ -57,8 +57,8 @@ img{
 
 .section-heading h1{
   font-size: 3.5rem;
-  /* color: rgba(255,255,255, 0.3); */
-  color: #785589;
+  color: #00C0FF;
+  /* color: #785589; */
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -127,7 +127,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-  background: linear-gradient(to top, #ffe828, #fd57bf);
+  background: linear-gradient(#00C0FF, #E8D5B5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -152,7 +152,7 @@ li{
   font-size: 8rem;
   font-weight: 500;
   font-family: "Playfair Display", sans-serif;
-  background: linear-gradient(#ffe838, #fd57bf);
+  background: linear-gradient(#00C0FF, #E8D5B5);
   /* to top option for background */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -185,7 +185,8 @@ li{
 .about-heading h1{
   font-size: 8rem;
   /* color: #5e7ca2; */
-  color: #785589
+  /* color: #785589 */
+  color: #00C0FF70;
 }
 
 .about-heading h6{
