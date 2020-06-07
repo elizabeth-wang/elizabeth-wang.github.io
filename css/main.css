@@ -218,8 +218,8 @@ li{
   transition: color 650ms;
 }
 
-.fa-facebook-square:hover{
-  color:#4367b2;
+.fa-medium:hover{
+  color:#00AB6C;
 }
 
 .fa-linkedin:hover{
@@ -257,20 +257,23 @@ li{
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 2rem -2px 2rem 0;
+  color: #;
 }
 
 .icon-container{
   width: 10rem;
   height: 10rem;
-  border: 3px solid #ffe838;
-  background-color: #fd57bf;
+  border: 3px solid #05668D;
+  background-color: #874D9A40;
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg);
 }
 
 .icon-container i{
-  color: #ffe838;
+  /* color: #ffe838; */
+  /* color: #4A4063 */
+  color: #05668D  ;
   font-size: 5rem;
   margin: auto;
   transform: rotate(-45deg);
