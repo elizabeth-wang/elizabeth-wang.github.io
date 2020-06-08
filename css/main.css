@@ -93,6 +93,10 @@ img{
 .has-margin-left{
   margin-left: 5rem;
 }
+
+.padding{
+  margin-top: 5rem;
+}
 /* End reuseable */
 
 /* Start header */
@@ -452,4 +456,9 @@ input[type="submit"]{
   color: #16162d;
   font-size: 2rem;
   margin: auto;
+}
+
+/* courses */
+.courses header{
+  width: 100%;
 }
