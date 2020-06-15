@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Roboto&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 <body>
   <header>
 
-    <nav class="top-nav" id="myLinks">
+    <nav class="top-nav" id="myTopnav">
       <ul class="nav-list">
         <li>
           <a href="index.html" class="nav-link">Home</a>
@@ -30,7 +31,9 @@
         <li>
           <a href="#experience" class="nav-link">Experience</a>
         </li>
-        </a>
+        <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+          <i class="fa fa-bars"></i></a>
+        
       </ul>
     </nav>
 
@@ -238,6 +241,18 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
       AOS.init();
+  </script>
+
+<!--Code adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+<script>
+  function hamburger() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "top-nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "top-nav";
+    }
+  }
   </script>
 <!-- scripts end -->
 </body>
