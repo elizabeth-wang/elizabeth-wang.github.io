@@ -31,7 +31,6 @@ a {
 
 .cta{
   display: inline-block;
-  font-size: 1.8rem;
   transition: all 650ms;
 }
 
@@ -357,6 +356,11 @@ li{
   color: #F7F6C5;
 }
 
+.timeline h2{
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
 .timeline ul .date p{
   color: #ffffff;
 }
@@ -495,9 +499,10 @@ input[type="submit"]{
 }
 
 @media only screen and (max-width: 600px) {
-  body {
+  /* for troubleshooting purposes */
+  /* body {
     background-color: #8b0000;
-  }
+  /* } */
   .top-nav li:not(:first-child) {display: none;}
   .top-nav a.icon {
     float: right;
